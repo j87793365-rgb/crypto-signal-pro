@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 app = Flask(__name__)
 
-BINANCE_REST = "https://api.binance.com"
+BINANCE_REST = "https://data-api.binance.vision"
 SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT"]
 
 NEWS_FEEDS = [
